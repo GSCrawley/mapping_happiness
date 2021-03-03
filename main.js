@@ -4,11 +4,11 @@ const width = 960
 const height = 500
 
 // ------------------------------------------------------
-// Load the earthquake data
+// Load the happiness data
 
 // Load both json files with Promise.all()
-const mapPromise = d3.json('world-110m2.json') // world-110m2.json
-const dataPromise = d3.csv('earthquake.csv')
+const mapPromise = d3.json('2019.json') // world-110m2.json
+const dataPromise = d3.csv('2019.csv')
 Promise.all([mapPromise, dataPromise])
 	.then(handleData)
 
