@@ -1,0 +1,17 @@
+body {
+    margin: 5px;
+    text-align: center;
+    background-color: #007da4;
+  }
+  
+  canvas {
+    width: calc(100vmin - 10px);
+    outline: 1px solid white;
+  }
+  
+  p, a {
+    color: white;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+  }
+  
